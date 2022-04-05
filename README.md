@@ -1,7 +1,7 @@
 # Solar Desktop Wallet - Italian Language Plugin
 
 
-#### 🇮🇹 Plugin per la traduzione in lingua italiana del "Solar Desktop Wallet"
+#### ITA: Plugin per la traduzione in lingua italiana del "Solar Desktop Wallet"
 #### Installazione
 > **1.** Installa il plugin tramite il Plugin Manager del Solar Desktop Wallet<br> oppure [scarica](https://github.com/danielstc/solar-wallet_italian-language-plugin/archive/master.zip) l'archivio e scompattalo
 in `~/.solar-desktop/plugins/`.<br><br>
@@ -12,7 +12,7 @@ in `~/.solar-desktop/plugins/`.<br><br>
 <br>
 
 
-#### 🇬🇧 Plugin for the Italian translation of the "Solar Desktop Wallet"
+#### ENG: Plugin for the Italian translation of the "Solar Desktop Wallet"
 #### Setup
 > **1.** Install the plugin through the Solar Desktop Wallet Plugin Manager<br> or
 [download](https://github.com/danielstc/solar-wallet_italian-language-plugin/archive/master.zip) this repository and unzip it
