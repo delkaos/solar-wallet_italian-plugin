@@ -1,15 +1,13 @@
 {
   "name": "@delkaos/solar-wallet_italian-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Un plugin per tradurre il Solar Desktop Wallet in italiano. Dopo aver installato il plugin, seleziona la lingua italiana dalle impostazioni del profilo.",
   "main": "src/index.js",
   "author": "kaos <kaosdelegate@pm.me>",
   "license": "MIT",
   "desktop-wallet": {
     "title": "Italian Language",
-    "logo": {
-      "file": "./logo.png"
-    },
+    "logo": "https://raw.githubusercontent.com/delkaos/solar-wallet_italian-plugin/master/logo.png",
     "categories": [
       "language"
     ],
