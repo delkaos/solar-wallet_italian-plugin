@@ -1229,7 +1229,8 @@
       "AWAITING_VOTE_CONFIRMATION": "La tua transazione è in attesa di conferma",
       "LOADING_VOTE": "Caricamento dei dettagli del voto ...",
       "SEARCH_DELEGATE": "Cerca delegato",
-      "TOTAL_REMAINING": "Rimanente: {percentage}%"
+      "TOTAL_REMAINING": "Rimanente: {percentage}%",
+      "NUMBER_OF_DELEGATES_VOTED": "Voti: {n}"
     },
     "WALLET_IPFS": {
       "HEADER": "Hash IPFS",
