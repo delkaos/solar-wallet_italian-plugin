@@ -34,15 +34,15 @@
       "APP_NAME_SHORT": "Solar Desktop",
       "APPEARANCE": "Aspetto",
       "AVATAR": "Avatar",
-      "ARK": "Solar",
       "BACK": "Indietro",
       "BACKGROUND": "Sfondo",
-      "BIP39_LANGUAGE": "Lingua Frase Segreta (BIP39)",
+      "BIP39_LANGUAGE": "Lingua Frase Mnemonica (BIP39)",
+      "BLOCK_PRODUCER": "Produttore Blocchi",
+      "BLOCK_PRODUCERS": "Produttori Blocchi",
       "CATEGORY": "Categoria",
       "CONFIRM": "Conferma",
       "CURRENCY": "Valuta",
       "DATE": "Data",
-      "DELEGATE": "Delegato",
       "DESKTOP_WALLET": "Desktop Wallet",
       "DONE": "Fatto",
       "ENABLE_ADVANCED_MODE": "Attiva la modalità avanzata per utilizzare questa funzione",
@@ -76,6 +76,7 @@
       "SAVE": "Salva",
       "SIZE": "Dimensioni",
       "SKIP": "Salta",
+      "SOLAR": "Solar",
       "START": "Inizia",
       "THEME": "Tema",
       "THEMES": {
@@ -91,7 +92,7 @@
       "WALLET": "wallet",
       "X_OF_Y": "{0} di {1}",
       "ADVANCED_MODE": "Modalità avanzata",
-      "DEFAULT_CHOSEN_FEE": "Tipo di commissione predefinita"
+      "DEFAULT_CHOSEN_FEE": "Tipo di fee predefinita"
     },
     "ANNOUNCEMENTS": {
       "LATEST_NEWS": "Ultime News",
@@ -108,7 +109,7 @@
         "TITLE": "La tua Forza",
         "FINANCE": "La cosa più importante da sapere per gli utenti riguardo le criptovalute, è che rovesciano completamente il comunemente accettato modello di come funziona la finanza.",
         "BANKS": "Nella finanza tradizionale, rimetti il controllo del tuo denaro ad una banca. Poiché le banche hanno il controllo sui tuoi fondi, possono intraprendere azioni per tuo conto, come il rimborso delle transazioni e il ripristino delle informazioni di accesso.",
-        "CRYPTO": "Le criptovalute prendono quel potere lo forniscono direttamente a te. Usando nient'altro che la tua frase segreta, puoi controllare esattamente quando, dove e come viene conservato e speso il tuo denaro.",
+        "CRYPTO": "Le criptovalute prendono quel potere lo forniscono direttamente a te. Usando nient'altro che la tua frase mnemonica, puoi controllare esattamente quando, dove e come viene conservato e speso il tuo denaro.",
         "RESPONSIBILITY": "Tuttavia, dalle parole di Uncle Ben Parker, da un grande potere derivano grandi responsabilità."
       },
       "DUTY": {
@@ -117,38 +118,38 @@
         "OWNER": "Questo porta anche a maggiori responsabilità nei tuoi confronti, il proprietario del conto",
         "WARNING": {
           "ACCOUNT": "A differenza del tuo conto bancario tradizionale, {CANNOT_RESTORE}",
-          "CANNOT_RESTORE": "password perdute, frasi segrete o fondi rubati non potranno essere ripristinati dal team Solar, dai Delegati e da nessun altro."
+          "CANNOT_RESTORE": "password perdute, frasi mnemoniche o fondi rubati non potranno essere ripristinati dal team Solar, dai produttori di blocchi e da nessun altro."
         },
         "SECURITY": "La sicurezza del tuo conto spetta esclusivamente a te."
       },
       "RESPONSIBILITY": {
         "TITLE": "La tua Responsabilità",
         "STORAGE": {
-          "EXPLANATION": "La {PASSPHRASE} di ogni indirizzo wallet può firmare transazioni e muovere i fondi. Questo significa che se il tuo computer \"muore\", ma tu possiedi la tua frase segreta, potrai ancora accedere ai tuoi fondi. Solar Desktop Wallet ha un'ulteriore funzionalità che ti permette di settare anche un {ENCRYPTED}, per agevolarne la gestione. Se il tuo computer \"muore\", non sarà possibile utilizzare la password cifrata per accedere ai fondi da una macchina differente. {NEED}.",
-          "PASSPHRASE": "frase segreta",
+          "EXPLANATION": "La {MNEMONIC} di ogni indirizzo wallet può firmare transazioni e muovere i fondi. Questo significa che se il tuo computer \"muore\", ma tu possiedi la tua frase mnemonica, potrai ancora accedere ai tuoi fondi. Solar Desktop Wallet ha un'ulteriore funzionalità che ti permette di settare anche un {ENCRYPTED}, per agevolarne la gestione. Se il tuo computer \"muore\", non sarà possibile utilizzare la password cifrata per accedere ai fondi da una macchina differente. {NEED}.",
+          "MNEMONIC": "frase mnemonica",
           "ENCRYPTED": "password cifrata",
-          "NEED": "Avrai bisogno della frase segreta"
+          "NEED": "Avrai bisogno della frase mnemonica"
         },
         "BACKUP": {
-          "ALWAYS": "Effettua sempre il backup della frase segreta e conservala in un luogo sicuro.",
+          "ALWAYS": "Effettua sempre il backup della frase mnemonica e conservala in un luogo sicuro.",
           "OPTIONS": "È possibile scriverla su carta spessa e archiviarne più copie in posti sicuri. È inoltre possibile memorizzarla su un'unità flash crittografata. In alternativa, è possibile utilizzare un dispositivo hardware USB Ledger Nano S, Nano S Plus o Nano X, disponibile su Ledger.com, per archiviare e accedere ai fondi e al Solar Desktop Wallet. Puoi collegare il tuo Ledger Nano S al tuo computer e accedere alla blockchain Solar senza dover inserire la tua frase segreta."
         },
-        "REMEMBER": "Ricorda, chiunque abbia la frase segreta può accedere ai tuoi fondi. Non condividere mai il tuo conto con nessuno ed evita di memorizzarlo in luoghi che sono suscettibili di hack, come il cloud."
+        "REMEMBER": "Ricorda, chiunque abbia la frase mnemonica può accedere ai tuoi fondi. Non condividere mai il tuo conto con nessuno ed evita di memorizzarlo in luoghi che sono suscettibili di hack, come il cloud."
       },
       "TURN": {
         "TITLE": "Il tuo Turno",
-        "KNOWLEDGE": "Ora, armato della consapevolezza di quanto sia importante mantenere al sicuro le tue frasi segrete, sei pronto a rivendicare la tua autonomia finanziaria con Solar Desktop Wallet.",
+        "KNOWLEDGE": "Ora, armato della consapevolezza di quanto sia importante mantenere al sicuro le tue frasi mnemoniche, sei pronto a rivendicare la tua autonomia finanziaria con Solar Desktop Wallet.",
         "SUPPORT": "Solar è un ecosistema open source e se hai bisogno di assistenza, la community e il team Solar sono qui per aiutarti.",
         "CONCLUSION": "Tutti qui, al team di solar.org, speriamo ti piacerà utilizzare Solar Desktop Wallet e partecipare alla rivoluzione blockchain!"
       }
     },
     "SEARCH": {
-      "DEFAULT_PLACEHOLDER": "Trova transazione, indirizzo o delegato",
+      "DEFAULT_PLACEHOLDER": "Trova transazione, indirizzo o produttore blocchi",
       "FILTER": "Filtro",
       "SEARCH_BY": "Cerca per",
       "SELECT_OPTION": "Seleziona un'opzione",
-      "DELEGATE": "Delegato",
-      "WALLETS": "Wallets",
+      "BLOCK_PRODUCER": "Produttore Blocchi",
+      "WALLETS": "Wallet",
       "PERIOD": "Periodo"
     },
     "CONTACT_REMOVAL_CONFIRMATION": {
@@ -157,8 +158,8 @@
     "ENCRYPTION": {
       "DECRYPTING": "Decifrando il wallet con password...",
       "ENCRYPTING": "Cifrando il wallet con password...",
-      "FAILED_DECRYPT": "Fallito nel decifrare la frase segreta",
-      "FAILED_ENCRYPT": "Fallito nel cifrare la frase segreta"
+      "FAILED_DECRYPT": "Fallito nel decifrare la frase mnemonica",
+      "FAILED_ENCRYPT": "Fallito nel cifrare la frase mnemonica"
     },
     "LEDGER": {
       "NEEDS_UPDATE": "È disponibile un aggiornamento Ledger! Aggiorna l'app Solar tramite Ledger Live per poter inviare transazione su questa rete."
@@ -168,7 +169,7 @@
       "CONNECTED": "Connesso al peer",
       "CONNECT_CUSTOM": "Connetti peer personalizzato",
       "CUSTOM_TITLE": "Connettiti ad un peer personalizzato",
-      "MULTI_SIGNATURE_TITLE": "Connetti peer Firma-Multipla",
+      "MULTI_SIGNATURE_TITLE": "Connetti peer multifirma",
       "CONNECT_FAILED": "Impossibile connettersi al peer",
       "LATENCY": "Latenza",
       "DISCONNECT": "Disconnesso dal peer",
@@ -190,8 +191,9 @@
       "INVALID_PORT": "Porta non valida",
       "INVALID_FORMAT": "Formato non valido",
       "INVALID_TYPE": "Tipo non valido",
-      "MAX_LENGTH_CHARACTERS": "Max {0} caratteri",
-      "MIN_LENGTH_CHARACTERS": "Min {0} caratteri",
+      "MAX_LENGTH": "Max {0} caratteri",
+      "MAX_LENGTH_CHARACTERS": "Massimo {0} caratteri",
+      "MIN_LENGTH": "Min {0} caratteri",
       "MUST_BE_GREATER_THAN": "Deve essere maggiore di {0}",
       "NOT_MATCH": "'{0}' non coincide con '{1}'",
       "NOT_VALID": "'{0}' non è valido",
@@ -224,7 +226,7 @@
         "NO_GITHUB": "Sono permessi solo URL che contengono 'github.com'",
         "NO_GITHUB_REPOSITORY": "Questo URL non appartiene ad una repository GitHub"
       },
-      "VENDOR_FIELD": {
+      "MEMO": {
         "LIMIT_REACHED": "È possibile inserire un massimo di {0} caratteri",
         "LIMIT_REMAINING": "{0}/{1} Rimanente"
       },
@@ -264,10 +266,10 @@
     "TABLE": {
       "PAGE": "Pagina",
       "ROWS_PER_PAGE": "Righe per pagina",
-      "NO_TRANSACTIONS": "Nessuna transazione è stata trovata. Le ultime transazioni verranno visualizzate qui.",
-      "NO_CONTACTS": "Nessun contatto da mostrare.",
-      "NO_DELEGATES": "Nessun delegato da mostrare",
-      "NO_WALLETS": "Nessun wallet da mostrare."
+      "NO_TRANSACTIONS": "Nessuna transazione è stata trovata. Le ultime transazioni verranno visualizzate qui",
+      "NO_CONTACTS": "Nessun contatto da mostrare",
+      "NO_BLOCK_PRODUCERS": "Nessun produttore blocchi da mostrare",
+      "NO_WALLETS": "Nessun wallet da mostrare"
     },
     "APP": {
       "RELEASE": {
@@ -303,11 +305,11 @@
         "RESET_DATA": {
           "TITLE": "Resetta i dati",
           "QUESTION": "Sei sicuro di voler eliminare i tuoi dati?",
-          "NOTE": "Tutti i tuoi dati, inclusi profili, wallets, reti e contatti verranno rimossi dall'app e ripristinati sui valori predefiniti. I dati, come le transazioni, che sono sulla blockchain non possono essere rimossi."
+          "NOTE": "Tutti i tuoi dati, inclusi profili, wallet, reti e contatti verranno rimossi dall'app e ripristinati sui valori predefiniti. I dati, come le transazioni, che sono sulla blockchain non possono essere rimossi."
         },
         "THEME": "Tema"
       },
-      "WALLETS": "I miei wallets"
+      "WALLETS": "I miei wallet"
     },
     "APP_SIDEMENU_NOTIFICATION": {
       "TOOLTIP": "La nuova versione ({version}) è stata rilasciata!"
@@ -320,7 +322,7 @@
       "DOWNLOADED": "Scaricato {version}",
       "QUIT_AND_INSTALL": "Esci e installa",
       "UNKNOWN_ERROR": "Errore sconosciuto. Chiudi questa finestra e riprova.",
-      "NETWORK_ERROR": "Sembra che il tuo file non venga scaricato. Verifica la tua connessione."
+      "NETWORK_ERROR": "Sembra che il tuo file non possa essere scaricato. Verifica la tua connessione."
     },
     "MARKET_CHART": {
       "TODAY": "Oggi",
@@ -364,7 +366,7 @@
       "KNOWN_ADDRESS": "Questo wallet è conosciuto come \"{address}\"",
       "LABEL": "Indirzzo",
       "NEO_ADDRESS": "Esiste un indirizzo NEO come questo",
-      "QR": "Scannerizza il codice QR"
+      "QR": "Scannerizza il QR Code"
     },
     "INPUT_CURRENCY": {
       "ERROR": {
@@ -375,12 +377,12 @@
       },
       "LABEL": "Importo"
     },
-    "INPUT_DELEGATE": {
+    "INPUT_BLOCK_PRODUCER": {
       "ERROR": {
-        "REQUIRED": "Il nome del delegato, l'indirizzo o la chiave pubblica sono obbligatori",
-        "USERNAME_NOT_FOUND": "Non è stato possibile trovare il delegato '{0}'",
-        "ADDRESS_NOT_FOUND": "Non è stato possibile trovare il delegato con l'indirizzo '{0}'",
-        "PUBLIC_KEY_NOT_FOUND": "Non è stato possibile trovare il delegato con la chiave pubblica '{0}'"
+        "REQUIRED": "Il nome del produttore blocchi, l'indirizzo o la chiave pubblica sono obbligatori",
+        "USERNAME_NOT_FOUND": "Non è stato possibile trovare il produttore blocchi '{0}'",
+        "ADDRESS_NOT_FOUND": "Non è stato possibile trovare il produttore blocchi con l'indirizzo '{0}'",
+        "PUBLIC_KEY_NOT_FOUND": "Non è stato possibile trovare il produttore blocchi con la chiave pubblica '{0}'"
       },
       "SEARCH_HINT": "Puoi cercare per nome utente, indirizzo o chiave pubblica"
     },
@@ -394,13 +396,13 @@
       "MAXIMUM": "Massimo",
       "INPUT": "Immetti",
       "ADVANCED": "Avanzato",
-      "LOW_FEE_NOTICE": "Le transazioni con commissioni basse potrebbero non essere mai confermate",
-      "ADVANCED_NOTICE": "Fai attenzione a quale commissione andrai a scegliere, perché se dovesse essere troppo alta, costerà più del necessario",
-      "UNIQUE": "La commissione di rete è stata impostata sul valore statico di {fee}",
+      "LOW_FEE_NOTICE": "Le transazioni con fee basse potrebbero non essere mai confermate",
+      "ADVANCED_NOTICE": "Fai attenzione a quale fee andrai a scegliere, perché se dovesse essere troppo alta, costerà più del necessario",
+      "UNIQUE": "La fee di rete è stata impostata sul valore statico di {fee}",
       "ERROR": {
-        "NOT_VALID": "La commissione non è valida",
-        "LESS_THAN_MINIMUM": "La commissione minima è {fee}",
-        "MORE_THAN_MAXIMUM": "La commissione massima è {fee}"
+        "NOT_VALID": "La fee non è valida",
+        "LESS_THAN_MINIMUM": "La fee minima è {fee}",
+        "MORE_THAN_MAXIMUM": "La fee massima è {fee}"
       }
     },
     "INPUT_GRID": {
@@ -421,35 +423,35 @@
     },
     "MODAL_ADDITIONAL_LEDGERS": {
       "CANCEL": "Annulla",
-      "INFO": "Inserire il numero totale di wallets Ledger che si desidera visualizzare. (attualmente vengono visualizzati {quantità} wallets)",
-      "LARGE_QUANTITY": "Stai per visualizzare un numero elevato di wallets. I tuoi fondi rimarranno al sicuro, ma le prestazioni dell'applicazione e la connessione di rete potrebbero risentirne.",
-      "LOAD": "Carica Wallets",
+      "INFO": "Inserire il numero totale di wallet Ledger che si desidera visualizzare. (attualmente vengono visualizzati {quantità} wallet)",
+      "LARGE_QUANTITY": "Stai per visualizzare un numero elevato di wallet. I tuoi fondi rimarranno al sicuro, ma le prestazioni dell'applicazione e la connessione di rete potrebbero risentirne.",
+      "LOAD": "Carica Wallet",
       "QUANTITY": "Quantità",
-      "TITLE": "Carica wallets Ledger aggiuntivi"
+      "TITLE": "Carica wallet Ledger aggiuntivi"
     },
     "MODAL_EXPORT_WALLETS": {
       "ADVANCED": "Opzioni avanzate",
       "CANCEL": "Annulla",
-      "COUNT": "{count} wallets verranno esportati",
+      "COUNT": "{count} wallet verranno esportati",
       "ERROR": {
-        "EXPORT_WALLETS": "Impossibile esportare i tuoi wallets"
+        "EXPORT_WALLETS": "Impossibile esportare i tuoi wallet"
       },
-      "EXPORT": "Esporta 0 Wallets | Esporta 1 wallet | Esporta {count} Wallets",
-      "INSTRUCTIONS": "<b>Importante:</b> I tuoi wallets esportati non conterranno le tue frasi segrete, verranno salvati solamente gli indirizzi e i rispettivi nomi!",
+      "EXPORT": "Esporta 0 Wallet | Esporta 1 wallet | Esporta {count} Wallet",
+      "INSTRUCTIONS": "<b>Importante:</b> I tuoi wallet esportati non conterranno le tue frasi mnemoniche, verranno salvati solamente gli indirizzi e i rispettivi nomi!",
       "OPTIONS": {
         "ADD_NETWORK": "Aggiungi informazioni sulla rete",
-        "EXCLUDE_EMPTY": "Escludi wallets vuoti",
-        "EXCLUDE_LEDGER": "Escludi wallets ledger",
-        "EXCLUDE_UNNAMED": "Escludi wallets senza nome"
+        "EXCLUDE_EMPTY": "Escludi wallet vuoti",
+        "EXCLUDE_LEDGER": "Escludi wallet ledger",
+        "EXCLUDE_UNNAMED": "Escludi wallet senza nome"
       },
       "SUCCESS": {
-        "EXPORT_WALLETS": "I tuoi wallets sono stati esportati con successo in: {path}"
+        "EXPORT_WALLETS": "I tuoi wallet sono stati esportati con successo in: {path}"
       },
-      "TITLE": "Esporta Wallets"
+      "TITLE": "Esporta Wallet"
     },
     "MODAL_CLOSE_CONFIRMATION": {
       "QUESTION": "Sei sicuro di voler chiudere questa finestra?",
-      "CONFIRM": "Sì, chiudi.",
+      "CONFIRM": "Sì, chiudi",
       "CANCEL": "No, annulla"
     },
     "MODAL_CONFIRMATION": {
@@ -458,12 +460,12 @@
       "TITLE": "Conferma"
     },
     "MODAL_QR_CODE": {
-      "TITLE": "Codice QR",
-      "SUBTITLE": "Scannerizza per l'Indirizzo"
+      "TITLE": "QR Code",
+      "SUBTITLE": "Scannerizza per ottenere l'Indirizzo"
     },
     "MODAL_QR_SCANNER": {
       "ERROR": {
-        "NOT_ALLOWED": "É necessario accedere alla webcam per scannerizzare il codice QR",
+        "NOT_ALLOWED": "É necessario accedere alla webcam per scannerizzare il QR Code",
         "NOT_FOUND": "Webcam non trovata",
         "NOT_SUPPORTED": "La pagina non viene servita su una connessione sicura (https)",
         "NOT_READABLE": "Impossibile leggere lo stream della webcam, forse è già in uso?",
@@ -471,7 +473,7 @@
         "STREAM": "Sembra che tu stia utilizzando un browser non supportato. É molto curioso .."
       },
       "LOADING": "Caricamento webcam in corso",
-      "INSTRUCTION": "Posiziona il codice QR davanti alla webcam",
+      "INSTRUCTION": "Posiziona il QR Code davanti alla webcam",
       "TITLE": "Scanner QR",
       "DECODE_FAILED": "Impossibile decodificare i dati: {data}"
     },
@@ -487,13 +489,13 @@
       "SYMBOL": "Simbolo",
       "VERSION": "Versione",
       "EXPLORER": "Explorer",
-      "KNOWN_WALLETS_URL": "URL dei wallets conosciuti",
+      "KNOWN_WALLETS_URL": "URL dei wallet conosciuti",
       "EPOCH": "Epoch",
       "WIF": "WIF",
       "SLIP44": "Slip44",
-      "ACTIVE_DELEGATES": "Delegati attivi",
-      "ADDRESS_VERSION_MISSING": "Versione dell'indirizzo mancante - ti preghiamo di controllare i tuoi wallets",
-      "MARKET_TICKER": "Market Ticker (Opzionale)",
+      "ACTIVE_BLOCK_PRODUCERS": "Produttori blocchi attivi",
+      "ADDRESS_VERSION_MISSING": "Versione dell'indirizzo mancante - ti preghiamo di controllare i tuoi wallet",
+      "MARKET_TICKER": "Market Ticker (Facoltativo)",
       "FAILED_FETCH": "Impossibile recuperare le informazioni di rete",
       "NETWORK_IN_USE": "Questa rete è in uso da uno o più profili e non può essere rimossa",
       "DEFAULT_NETWORK_NO_DELETE": "Questa è una rete predefinita e non può essere rimossa",
@@ -575,18 +577,18 @@
       "EXPLANATION": "Scarica il plugin direttamente da GitHub utilizzando l'URL del repository del plugin nel campo di input sottostante.",
       "DISCLAIMER": "<b>Disclaimer:</b> Assicurati di controllare la documentazione del plugin prima di installarlo. Installandolo sul tuo wallet, ti assumi ogni responsabilità."
     },
-    "PASSPHRASE_INPUT": {
-      "HIDE": "Nascondi la frase segreta",
-      "LABEL": "Frase segreta",
-      "QR": "Scannerizza il codice QR",
-      "SHOW": "Mostra la frase segreta"
+    "MNEMONIC_INPUT": {
+      "HIDE": "Nascondi la frase mnemonica",
+      "LABEL": "Frase mnemonica",
+      "QR": "Scannerizza il QR Code",
+      "SHOW": "Mostra la frase mnemonica"
     },
     "PASSWORD_INPUT": {
       "HIDE": "Nascondi la password",
       "LABEL": "Password",
       "SHOW": "Mostra la password"
     },
-    "PASSPHRASE_VERIFICATION": {
+    "MNEMONIC_VERIFICATION": {
       "WORD_LABEL_1": "La 1ª parola",
       "WORD_LABEL_2": "La 2ª parola",
       "WORD_LABEL_3": "La 3ª parola",
@@ -615,14 +617,14 @@
         },
         "TITLE": "Inserisci l'indirizzo del contatto",
         "ADDRESS": "Indirizzo",
-        "NAME": "Nome contatto (opzionale)",
+        "NAME": "Nome contatto (facoltativo)",
         "NAME_INFO": "Info:",
         "NAME_DESCRIPTION": "Il nome del contatto non è richiesto, ma può essere utilizzato per comodità dell'utente",
         "FAILED": "Fallito nel creare il contatto",
         "SUCCESS": "'{0}' è stato aggiunto ai tuoi contatti"
       },
       "DASHBOARD": {
-        "ALL_WALLETS": "Tutti i wallets",
+        "ALL_WALLETS": "Tutti i wallet",
         "ADD_WALLET": "Aggiungi wallet",
         "CREATE_WALLET": "Crea wallet",
         "IMPORT_WALLET": "Importa wallet",
@@ -768,10 +770,10 @@
       },
       "WALLET": {
         "TRANSACTIONS": "Transazioni",
-        "DELEGATES": "Delegati",
+        "BLOCK_PRODUCERS": "Produttori Blocchi",
         "IPFS": "IPFS",
-        "MULTI_SIGNATURE": "Firma-multipla",
-        "MULTI_SIGNATURE_WALLET": "Wallet firma-multipla",
+        "MULTI_SIGNATURE": "Multifirma",
+        "MULTI_SIGNATURE_WALLET": "Wallet multifirma",
         "STATISTICS": "Statistiche",
         "SIGN_VERIFY": "Firma",
         "PURCHASE": "Acquista {ticker}"
@@ -779,22 +781,22 @@
       "WALLET_ALL": {
         "LEDGER": {
           "CACHE": "Metti in cache wallet Ledger?",
-          "CACHE_INFO": "Metti in cache i wallets dal tuo Ledger per accelerare il caricamento quando si è connessi per la prima volta",
-          "ADDITIONAL": "# di Wallets Ledger",
+          "CACHE_INFO": "Metti in cache i wallet dal tuo Ledger per accelerare il caricamento quando si è connessi per la prima volta",
+          "ADDITIONAL": "# di Wallet Ledger",
           "OPTIONS": "Opzioni Ledger"
         },
         "CREATE_WALLET": "Crea wallet",
         "DELETE_WALLET": "Elimina questo wallet",
-        "HEADER": "I miei wallets",
+        "HEADER": "I miei wallet",
         "IMPORT_WALLET": "Importa wallet",
-        "EXPORT_WALLETS": "Esporta Wallets",
-        "LOADING_LEDGER": "Caricamento wallets Ledger...",
+        "EXPORT_WALLETS": "Esporta Wallet",
+        "LOADING_LEDGER": "Caricamento wallet Ledger...",
         "SHOW_WALLET": "Mostra wallet",
         "TOTAL_BALANCE": "Saldo totale",
         "ADDRESS": "Indirizzo",
         "NAME": "Nome",
         "VOTING_FOR": "Vota per",
-        "DELEGATE_NOT_ACTIVE": "{delegate} ({rank}) non é un delegato attivo",
+        "BLOCK_PRODUCER_NOT_ACTIVE": "{blockProducer} ({rank}) non è un produttore blocchi attivo",
         "BALANCE": "Saldo",
         "DELETE": "Rimuovi"
       },
@@ -802,21 +804,21 @@
         "STEP1": {
           "INSTRUCTIONS": {
             "HEADER": "Importa wallet",
-            "TEXT": "Inserisci la frase segreta del tuo wallet. Puoi inserire prima l'indirizzo, per assicurarti che corrisponda alla frase segreta specificata."
+            "TEXT": "Inserisci la frase mnemonica del tuo wallet. Puoi inserire prima l'indirizzo, per assicurarti che corrisponda alla frase mnemonica specificata."
           },
           "TITLE": "1. Importa wallet",
           "ONLY_ADDRESS": "Usa solo l'indirizzo",
-          "ONLY_PASSPHRASE": "Usa solo la frase segreta"
+          "ONLY_MNEMONIC": "Usa solo la frase mnemonica"
         },
         "STEP2": {
           "INSTRUCTIONS": {
             "HEADER": "Cifratura wallet",
-            "TEXT": "Inserisci una password che desideri utilizzare per cifrare la frase segreta."
+            "TEXT": "Inserisci una password che desideri utilizzare per cifrare la tua frase mnemonica."
           },
           "TITLE": "2. Cifratura",
-          "PASSWORD": "Password wallet (opzionale)",
+          "PASSWORD": "Password wallet (facoltativo)",
           "PASSWORD_CONFIRM": "Conferma password",
-          "PASSWORD_WARNING": "Memorizzare la tua password può essere rischioso."
+          "PASSWORD_WARNING": "Memorizzare la tua frase mnemonica può essere rischioso."
         },
         "STEP3": {
           "INSTRUCTIONS": {
@@ -825,7 +827,7 @@
           },
           "TITLE": "3. Conferma",
           "ADDRESS": "Indirizzo wallet",
-          "NAME": "Nome wallet (opzionale)"
+          "NAME": "Nome wallet (facoltativo)"
         },
         "FAILED": "Impossibile importare il wallet"
       },
@@ -833,7 +835,7 @@
         "STEP1": {
           "INSTRUCTIONS": {
             "HEADER": "Nuovo wallet",
-            "TEXT_BEFORE_BUTTON": "Seleziona uno di questi wallets appena generati. Se preferisci, clicca sul",
+            "TEXT_BEFORE_BUTTON": "Seleziona uno di questi wallet appena generati. Se preferisci, clicca sul",
             "TEXT_AFTER_BUTTON": "pulsante per generarne altri."
           },
           "TITLE": "1. Scegli wallet"
@@ -841,30 +843,30 @@
         "STEP2": {
           "INSTRUCTIONS": {
             "HEADER": "La tua chiave personale",
-            "TEXT": "Assicurati di salvare la tua frase segreta in maniera sicura. Non mostrare la frase segreta a nessuno."
+            "TEXT": "Assicurati di salvare la tua frase mnemonica in maniera sicura. Non mostrare la frase mnemonica a nessuno."
           },
           "TITLE": "2. Backup"
         },
         "STEP3": {
           "INSTRUCTIONS": {
-            "HEADER": "Conferma frase segreta",
-            "TEXT": "Scrivi {words} dalla tua frase segreta per verificare il nuovo conto.",
+            "HEADER": "Conferma frase mnemonica",
+            "TEXT": "Scrivi {words} dalla tua frase mnemonica per verificare il nuovo conto.",
             "ALL_WORDS": "tutte le parole",
             "WORDS": "le parole {words}"
           },
           "TITLE": "3. Verifica",
-          "CHECK_ENTIRE_PASSPHRASE": "Controlla l'intera frase segreta",
-          "VERIFY_ALL_WORDS": "Verifica ogni parola della frase segreta"
+          "CHECK_ENTIRE_MNEMONIC": "Controlla l'intera frase mnemonica",
+          "VERIFY_ALL_WORDS": "Verifica ogni parola della frase mnemonica"
         },
         "STEP4": {
           "INSTRUCTIONS": {
             "HEADER": "Cifratura wallet",
-            "TEXT": "Inserisci una password che desideri utilizzare per cifrare la frase segreta."
+            "TEXT": "Inserisci una password che desideri utilizzare per cifrare la tua frase mnemonica."
           },
           "TITLE": "4. Cifratura",
-          "PASSWORD": "Password wallet (opzionale)",
+          "PASSWORD": "Password wallet (facoltativo)",
           "PASSWORD_CONFIRM": "Conferma password",
-          "PASSWORD_WARNING": "Memorizzare la tua frase segreta può essere rischioso."
+          "PASSWORD_WARNING": "Memorizzare la tua frase mnemonica può essere rischioso."
         },
         "STEP5": {
           "INSTRUCTIONS": {
@@ -873,15 +875,15 @@
           },
           "TITLE": "5. Conferma",
           "ADDRESS": "Indirizzo wallet",
-          "NAME": "Nome wallet (opzionale)"
+          "NAME": "Nome wallet (facoltativo)"
         }
       },
       "WALLET_SHOW": {
         "NO_VOTE": "Il wallet non ha votato",
         "ADD_CONTACT": "Aggiungi ai contatti",
-        "VOTING_FOR": "Votando per {n}",
-        "VOTING_FOR_MULTIPLE": "Votando per {n} Delegati",
-        "VOTING_FOR_SHORT": "{n} Delegati"
+        "VOTING_FOR_ONE": "Voto per {n}",
+        "VOTING_FOR_MULTIPLE": "Voto per {n} produttori blocchi",
+        "VOTING_FOR_SHORT": "{n} produttori blocchi"
       }
     },
     "PLUGIN_TABLE": {
@@ -904,7 +906,7 @@
       "YES": "Si, ignorale"
     },
     "PROFILE_REMOVAL_CONFIRMATION": {
-      "NOTE": "Anche se i tuoi wallets verranno rimossi, non verrà cancellato alcun dato dalla blockchain. Potrai recuperare i wallets finché possiedi le corrispettive frasi segrete",
+      "NOTE": "Anche se i tuoi wallet verranno rimossi, non verrà cancellato alcun dato dalla blockchain. Potrai recuperare i wallet finché possiedi le corrispettive frasi mnemoniche",
       "QUESTION": "Sei sicuro di voler rimuovere il profilo?"
     },
     "SELECTION_AVATAR": {
@@ -924,15 +926,15 @@
     "TRANSACTION": {
       "TYPE": {
         "TRANSFER": "Trasferimento",
-        "SECOND_SIGNATURE": "Seconda Firma",
-        "DELEGATE_REGISTRATION": "Registrazione Delegato",
+        "EXTRA_SIGNATURE": "Firma Extra",
+        "REGISTRATION": "Registrazione",
         "VOTE": "Voto",
-        "UNVOTE": "Rimuovi voto",
-        "MULTI_SIGN": "Transazione Firma-multipla",
-        "MULTI_SIGNATURE": "Firma-multipla",
+        "CANCEL_VOTE": "Rimuovi voto",
+        "MULTI_SIGN": "Transazione Multifirma",
+        "MULTI_SIGNATURE": "Multifirma",
         "IPFS": "IPFS",
         "MULTI_PAYMENT": "Trasferimento",
-        "DELEGATE_RESIGNATION": "Dimissioni Delegato",
+        "RESIGNATION": "Dimissioni",
         "HTLC_LOCK": "Timelock",
         "HTLC_CLAIM": "Timelock Claim",
         "HTLC_REFUND": "Timelock Refund"
@@ -940,45 +942,45 @@
       "ERROR": {
         "VALIDATION": {
           "TRANSFER": "Non è stato possibile creare una transazione Trasferimento",
-          "SECOND_SIGNATURE": "Non è stato possibile creare una transazione di Seconda Firma",
-          "DELEGATE_REGISTRATION": "Non è stato possibile creare una transazione di Registrazione Delegato",
+          "EXTRA_SIGNATURE": "Non è stato possibile creare una transazione di Firma Extra",
+          "REGISTRATION": "Non è stato possibile creare una transazione di Registrazione",
           "VOTE": "Non è stato possibile creare una transazione Voto",
-          "MULTI_SIGN": "Non è stato possibile firmare una transazione con Firma-Multipla",
-          "MULTI_SIGNATURE": "Non è stato possibile creare una transazione con Firma-Multipla",
+          "MULTI_SIGN": "Non è stato possibile multifirmare la transazione",
+          "MULTI_SIGNATURE": "Non è stato possibile creare una transazione Multifirma",
           "MULTI_PAYMENT": "Non è stato possibile creare una transazione di Trasferimento",
           "IPFS": "Non è stato possibile creare una transazione IPFS",
-          "DELEGATE_RESIGNATION": "Non è stato possibile creare una transazione di Dimissione Delegato"
+          "RESIGNATION": "Non è stato possibile creare una transazione di Dimissioni"
         },
         "TRANSFER": "La tua transazione non può essere inviata",
-        "SECOND_SIGNATURE": "Impossibile registrare Seconda firma",
-        "DELEGATE_REGISTRATION": "Impossibile registrare come Delegato",
+        "EXTRA_SIGNATURE": "Impossibile registrare firma extra",
+        "REGISTRATION": "Impossibile registrare come produttore blocchi",
         "VOTE": "Impossibile registrare il voto",
-        "UNVOTE": "Impossibile registrare il voto",
+        "CANCEL_VOTE": "Impossibile annullare il voto",
         "IPFS": "IPFS",
         "MULTI_SIGN": "Impossibile firmare transazione",
-        "MULTI_SIGNATURE": "Impossibile creare Firma-Multipla",
+        "MULTI_SIGNATURE": "Impossibile creare multifirma",
         "HTLC_LOCK": "Impossibile creare Timelock",
         "HTLC_CLAIM": "Impossibile creare Timelock Claim",
         "HTLC_REFUND": "Impossibile creare Timelock Refund",
         "MULTI_PAYMENT": "Impossibile inviare la transazione",
         "MULTI_PAYMENT_TO_SELF": "Escludendo {amount} inviato a se stesso",
-        "DELEGATE_RESIGNATION": "La dimissione del Delegato non è andata a buon fine",
+        "RESIGNATION": "Le dimissioni non sono andate a buon fine",
         "SAVE_OFFLINE": "Impossibile salvare il file transazione",
         "LOAD_FROM_FILE": "Impossibile caricare il file transazione",
         "LOAD_FROM_URI": "Impossibile caricare transazione da URI",
         "EXPIRED": "Transazione scaduta prima di essere proccessata: {transactionId}",
-        "FEE_TOO_LOW": "La transazione non può essere inviata perchè la commissione ({fee}) è troppo bassa",
-        "NOT_ENOUGH_BALANCE": "L'importo totale dei destinatari + la commissione è maggiore del saldo ({balance}) del wallet",
+        "FEE_TOO_LOW": "La transazione non può essere inviata perchè la fee ({fee}) è troppo bassa",
+        "NOT_ENOUGH_BALANCE": "L'importo totale dei destinatari + la fee è maggiore del saldo ({balance}) del wallet",
         "NOTHING_SENT": "La transazione non può essere inviata. Controlla la tua connessione di rete o cambia peer",
         "WRONG_NONCE": "Nonce errato",
         "NETWORK_NOT_CONFIGURED": "Rete non configurata",
         "WALLET_NOT_IMPORTED": "Wallet non importato"
       },
       "FOOTER_TEXT": {
-        "DELEGATE_REGISTRATION": "Tieni presente che non è possibile modificare il nome del Delegato dopo che la registrazione è stata validata sulla blockchain.",
-        "DELEGATE_RESIGNATION_TEMPORARY": "Tieni presente che queste dimissioni possono essere revocate in futuro.",
-        "DELEGATE_RESIGNATION_PERMANENT": "Tieni presente che non puoi ripristinare il tuo delegato dopo che le dimissioni sono state registrate sulla blockchain.",
-        "DELEGATE_RESIGNATION_REVOKE": "Tieni presente che questo ripristinerà il ranking del tuo delegato a partire dal prossimo turno."
+        "REGISTRATION": "Tieni presente che non è possibile modificare il nome del produttore blocchi dopo che la registrazione è stata validata sulla blockchain.",
+        "RESIGNATION_TEMPORARY": "Tieni presente che queste dimissioni possono essere revocate in futuro.",
+        "RESIGNATION_PERMANENT": "Tieni presente che non puoi ripristinare il tuo produttore blocchi dopo che le dimissioni sono state registrate sulla blockchain.",
+        "RESIGNATION_REVOKE": "Tieni presente che questo ripristinerà la posizione del tuo produttore blocchi a partire dal prossimo turno."
       },
       "INFO": {
         "BROADCASTING": "La tua transazione viene trasmessa alla rete",
@@ -986,29 +988,29 @@
       },
       "SUCCESS": {
         "TRANSFER": "La tua transazione è stata inviata con successo",
-        "SECOND_SIGNATURE": "Seconda firma registrata con successo",
-        "DELEGATE_REGISTRATION": "Registrato con successo come Delegato",
+        "EXTRA_SIGNATURE": "Firma extra registrata con successo",
+        "REGISTRATION": "Registrato con successo come produttore blocchi",
         "VOTE": "Votato con successo",
-        "UNVOTE": "Voto rimosso con successo",
+        "CANCEL_VOTE": "Voto annullato con successo",
         "MULTI_SIGN": "Transazione firmata con successo",
-        "MULTI_SIGNATURE": "Firma-Multipla creata con successo",
+        "MULTI_SIGNATURE": "Multifirma creata con successo",
         "IPFS": "IPFS",
         "HTLC_LOCK": "Trasferimento Timelock creato con successo",
         "HTLC_CLAIM": "Timelock Claim creata con successo",
         "HTLC_REFUND": "Timelock Refund creato con successo",
         "MULTI_PAYMENT": "La tua transazione è stata inviata con successo",
-        "DELEGATE_RESIGNATION": "Dimissioni Delegato date con successo",
+        "RESIGNATION": "Dimissioni avvenute con successo",
         "SAVE_OFFLINE": "File transazione creato con successo in: {path}",
         "LOAD_FROM_FILE": "File transazione caricato con successo"
       },
-      "DELEGATE_RESIGNATION": {
+      "RESIGNATION": {
         "TEMPORARY": "Dimissioni temporanee",
         "REVOKE": "Revoca dimissioni",
         "PERMANENT": "Dimissioni permanenti"
     },
       "VOTE": {
-        "VOTE_DELEGATE": "Vota per Delegato {delegate}",
-        "UNVOTE_DELEGATE": "Rimuovi voto a Delegato {delegate}"
+        "VOTE": "Vota per produttore blocchi {blockProducer}",
+        "CANCEL_VOTE": "Rimuovi voto a produttore blocchi {blockProducer}"
       },
       "MULTI_PAYMENT": {
           "TOTAL_AMOUNT": "Importo totale",
@@ -1016,7 +1018,7 @@
           "TOOLTIP": "Una transazione a destinatari multipli permette fino a {0} destinatari in una transazione"
       },
       "MULTI_SIGNATURE": {
-        "ADDRESS": "Indirizzo Firma-Multipla",
+        "ADDRESS": "Indirizzo Multifirma",
         "BUTTON_ADD": "Aggiungi",
         "ERROR_DUPLICATE": "La chiave pubblica è già stata aggiunta",
         "ERROR_MIN_KEYS_TOO_HIGH": "Il numero minimo di firme richieste è troppo alto",
@@ -1056,14 +1058,15 @@
       "BUTTON_ADD": "Aggiungi",
       "BUTTON_ADD_RECIPIENT": "Aggiungi Destinatario #{number}",
       "CONFIRMATION_COUNT": "{confirmations} Conferme",
-      "CONFIRM_SEND_ALL": "Questo permetterà di inviare in questa transazione tutti i tuoi token dal wallet corrente. La commissione di trasferimento selezionata sarà dedotta dall'importo dell'invio.",
+      "CONFIRM_SEND_ALL": "Questo permetterà di inviare in questa transazione tutti i tuoi token dal wallet corrente. La fee di trasferimento selezionata sarà dedotta dall'importo dell'invio.",
       "CONFIRM_SEND_ALL_TITLE": "Vuoi inviare tutti i tuoi token?",
       "CONFIRM_SEND_ALL_NOTE": "Nota: una volta inviato, non si può annullare.",
       "CONFIRMATIONS": "Conferme",
       "CREATE_TRANSFER": "Crea trasferimento",
       "DISCARD": "Scartato",
       "EXPIRED": "Scaduto",
-      "FEE": "Commissione di trasferimento",
+      "EXTRA_MNEMONIC": "Frase mnemonica extra",
+      "FEE": "Fee di trasferimento",
       "HASH": "Hash",
       "ID": "ID",
       "LEDGER_SIGN_NOTICE": "Successivamente confermerai la transazione con il tuo Ledger",
@@ -1072,12 +1075,13 @@
       "LEDGER_USER_DECLINED": "L'utente ha rifiutato",
       "LOAD_FROM_FILE": "Carica transazione da file",
       "LOAD_FROM_URI": "Carica da URI",
+      "MEMO": "Memo",
+      "MNEMONIC": "frase mnemonica",
       "MULTIPLE": "Multiplo",
       "NONCE": "Nonce",
       "NO_RECIPIENTS": "Nessun destinatario",
       "OPEN_IN_EXPLORER": "Apri in Explorer",
-      "OPTIONAL": "(optional)",
-      "PASSPHRASE": "Frase segreta",
+      "OPTIONAL": "(facoltativo)",
       "PASSWORD": "Password di cifratura",
       "RECIPIENT": "Destinatario",
       "RECIPIENTS": "Destinatari",
@@ -1085,7 +1089,6 @@
       "RESEND": "Invia di nuovo",
       "RESENT_NOTICE": "La transazione {transactionId} è stata inviata di nuovo",
       "SAVE_OFFLINE": "Salva transazione offline",
-      "SECOND_PASSPHRASE": "Seconda frase segreta",
       "SEND": "Invia",
       "SEND_ALL": "Invia Tutto",
       "SENDER": "Mittente",
@@ -1094,8 +1097,7 @@
       "STATUS": "Stato",
       "TIMESTAMP": "Timestamp",
       "TRANSACTION": "Transazione",
-      "USERNAME": "Username",
-      "VENDOR_FIELD": "Memo",
+      "USERNAME": "Nome utente",
       "VOTES": "Voti",
       "WELL_CONFIRMED": "Ben confermata",
       "WELL_CONFIRMED_COUNT": "Ben confermata ({confirmations} conferme)"
@@ -1124,17 +1126,17 @@
     },
     "SYNCHRONIZER": {
       "GROUP_1": {
-        "CANCELLED_VOTE": "Voto rimosso: {address} ha smesso di votare",
+        "CANCEL_VOTE": "voto annullato per",
+        "CANCELLED_VOTE": "Voto annullato: {address} ha smesso di votare",
         "VOTE": "votato per",
-        "UNVOTE": "voto rimosso a",
-        "NEW_SECOND_SIGNATURE": "Nuova Seconda firma: {address}",
-        "NEW_DELEGATE_REGISTRATION": "Nuovo delegato: {address} registrato come {username}",
-        "NEW_VOTE": "Nuovo voto: {address} {voteUnvote} {publicKey}",
-        "NEW_MULTI_SIGNATURE": "Nuova firma-multipla: {address}",
+        "NEW_EXTRA_SIGNATURE": "Nuova firma extra: {address}",
+        "NEW_REGISTRATION": "Nuovo produttore blocchi: {address} registrato come {username}",
+        "NEW_VOTE": "Nuovo voto: {address} {vote} {publicKey}",
+        "NEW_MULTI_SIGNATURE": "Nuova multifirma: {address}",
         "NEW_IPFS": "Nuovo hash IPFS: {address}",
         "NEW_MULTI_PAYMENT_SENT": "Nuovo trasferimento: {amount} inviato da {sender} a {recipient}",
         "NEW_MULTI_PAYMENT_RECEIVED": "Nuovo trasferimento: {amount} ricevuto da {sender} verso {recipient}",
-        "NEW_DELEGATE_RESIGNATION": "Nuove dimissioni delegato: {address}",
+        "NEW_RESIGNATION": "Nuove dimissioni: {address}",
         "NEW_TRANSFER_SENT": "Nuovo trasferimento: {amount} inviato da {sender} a {recipient}",
         "NEW_TRANSFER_RECEIVED": "Nuovo trasferimento: {amount} ricevuto da {sender} verso {recipient}"
       }
@@ -1151,24 +1153,24 @@
       "ACTIONS": {
         "WALLET_NAME": "Nome wallet",
         "CONTACT_NAME": "Nome contatto",
-        "REGISTER_MULTISIGNATURE": "Registra Firma-Multipla",
-        "REGISTER_DELEGATE": "Registra delegato",
-        "RESIGN_DELEGATE_REVOKE": "Revoca dimissioni Delegato temporanee",
-        "RESIGN_DELEGATE_TEMPORARY": "Dimissioni temporanee Delegato",
-        "RESIGN_DELEGATE_PERMANENT": "Dimissioni permanenti Delegato",
-        "SECOND_PASSPHRASE": "2ª frase segreta",
+        "REGISTER_MULTISIGNATURE": "Registra multifirma",
+        "REGISTER": "Produttore Blocchi",
+        "RESIGN_REVOKE": "Revoca Dimissioni Temporanee",
+        "RESIGN_TEMPORARY": "Dimissioni Temporanee",
+        "RESIGN_PERMANENT": "Dimissioni Permanenti",
+        "EXTRA_MNEMONIC": "Frase Mnemonica Extra",
         "DELETE_CONTACT": "Elimina contatto",
         "DELETE_WALLET": "Elimina wallet",
         "SHOW_PUBLIC_KEY": "Mostra chiave pubblica",
         "SHOW_ADDRESS": "Mostra indirizzo"
       },
       "PENDING_BALANCE": "{amount} compreso 1 transazione non confermata | {amount} compreso {n} transazioni non confermate",
-      "SECOND_PASSPHRASE_ENABLED": "Seconda firma abilitata"
+      "EXTRA_MNEMONIC_ENABLED": "Firma extra abilitata"
     },
-    "WALLET_SECOND_SIGNATURE": {
-      "NEW": "Genera nuova seconda frase segreta",
-      "ALREADY_REGISTERED": "Esiste già una seconda frase segreta registrata per questo indirizzo",
-      "INSTRUCTIONS": "Questa è la tua seconda frase segreta. Assicurati di fare un backup e di tenerla al sicuro!"
+    "WALLET_EXTRA_SIGNATURE": {
+      "NEW": "Genera nuova frase mnemonica extra",
+      "ALREADY_REGISTERED": "Esiste già una frase mnemonica extra registrata per questo indirizzo",
+      "INSTRUCTIONS": "Per interagire con la rete sono necessarie entrambe le frasi mnemoniche di 12 parole. Tienile al sicuro!"
     },
     "WALLET_SIDEBAR": {
       "FILTER": "Filtro",
@@ -1177,12 +1179,12 @@
       "LOADING_LEDGER": "Caricamento Ledger in corso...",
       "FILTERS": {
         "HIDE_EMPTY_CONTACTS": "Nascondi contatti vuoti",
-        "HIDE_EMPTY_WALLETS": "Nascondi wallets vuoti",
-        "HIDE_LEDGER": "Nascondi wallets Ledger"
+        "HIDE_EMPTY_WALLETS": "Nascondi wallet vuoti",
+        "HIDE_LEDGER": "Nascondi wallet Ledger"
       },
       "SEARCH": {
         "PLACEHOLDER_CONTACTS": "Clicca per filtrare i tuoi contatti",
-        "PLACEHOLDER_WALLETS": "Clicca per filtrare i tuoi wallets"
+        "PLACEHOLDER_WALLETS": "Clicca per filtrare i tuoi wallet"
       },
       "SORT": {
         "BALANCE_ASC": "Bilancio (min to max)",
@@ -1192,45 +1194,44 @@
         "NAME_DESC": "Nome (Z to A)"
       }
     },
-    "WALLET_DELEGATES": {
+    "WALLET_BLOCK_PRODUCERS": {
       "STATUS": {
         "TITLE": "Stato",
         "ACTIVE": "Attivo",
         "STANDBY": "In attesa",
         "RESIGNED": "Dimesso"
       },
-      "RANK": "Rango",
-      "USERNAME": "Username",
-      "RANK_BANNER": "Rango: {rank}",
+      "RANK": "Posizione",
+      "USERNAME": "Nome utente",
+      "RANK_BANNER": "Posizione: {rank}",
       "RANK_NOT_APPLICABLE": "Non applicabile",
       "RANK_NOT_AVAILABLE": "Non ancora disponibile",
       "APPROVAL": "Voto %",
-      "FORGED": "Forgiati",
+      "PRODUCED": "Prodotti",
       "BLOCKS": "Blocchi",
       "VOTERS": "Votanti",
-      "UNVOTE": "Rimuovi voto",
       "VOTES": "Voti",
       "VOTE": "Vota",
-      "USERNAME_EMPTY_ERROR": "Lo username deve avere almeno 1 carattere",
+      "CANCEL_VOTE": "Annulla Voto",
+      "USERNAME_EMPTY_ERROR": "Il nome utente deve avere almeno 1 carattere",
       "USERNAME_ERROR": "Nessun carattere speciale o maiuscolo consentito",
-      "USERNAME_EXISTS": "Esiste già un delegato con questo username",
+      "USERNAME_EXISTS": "Questo nome utente è già esistente",
       "USERNAME_MAX_LENGTH_ERROR": "Il nome utente deve essere inferiore o uguale a 20 caratteri",
-      "ALREADY_REGISTERED": "Questo wallet è già registrato come delegato",
-      "NOT_REGISTERED": "Questo wallet non è registrato come delegato",
+      "ALREADY_REGISTERED": "Questo wallet è già registrato come produttore blocchi",
+      "NOT_REGISTERED": "Questo wallet non è registrato come produttore blocchi",
       "BLOG": "Guida al voto",
-      "EXPLANATION": "Il voto è opzionale, ma è un meccanismo importante per mantiene la rete Solar sicura. I {delegates} delegati con il maggior numero di voti della rete sono responsabili della verifica e della forgiatura delle transazioni in nuovi blocchi. Questa pagina può essere utilizzata per esprimere il tuo voto per un delegato che vuoi supportare. Ulteriori informazioni sul voto per un delegato sono disponibili al seguente link:",
-      "VOTE_DELEGATE": "Vota per {delegate}",
-      "UNVOTE_DELEGATE": "Rimuovi voto",
-      "CURRENTLY_VOTED": "Al momento hai votato per {delegate}",
-      "VOTED_FOR": "Totale votato: {delegate}%",
-      "WALLET_VOTED_FOR": "Questo wallet ha votato per il delegato {delegate}",
+      "EXPLANATION": "Il voto è facoltativo, ma è un meccanismo importante per mantenere la rete Solar sicura. I {blockProducers} produttori blocchi con il maggior numero di voti della rete sono responsabili della verifica e della forgiatura delle transazioni in nuovi blocchi. Questa pagina può essere utilizzata per esprimere il tuo voto per uno o più produttori blocchi che vuoi supportare. Ulteriori informazioni sul voto per un produttore blocchi sono disponibili al seguente link:",
+      "VOTE_BLOCK_PRODUCER": "Vota per {blockProducer}",
+      "CURRENTLY_VOTED": "Stai attualmente votando per {blockProducer}",
+      "VOTED_FOR": "Totale votato: {blockProducer}%",
+      "WALLET_VOTED_FOR": "Questo wallet ha votato per il produttore blocchi {blockProducer}",
       "VOTE_INFO": "Info:",
-      "NO_VOTE": "Questo wallet non sta votando. Per visualizzare più informazioni e votare, utilizza la ricerca o fai clic su un qualsiasi delegato",
+      "NO_VOTE": "Questo wallet non sta votando. Per visualizzare più informazioni e votare, utilizza la ricerca o fai clic su un qualsiasi produttore blocchi",
       "AWAITING_VOTE_CONFIRMATION": "La tua transazione è in attesa di conferma",
       "LOADING_VOTE": "Caricamento dei dettagli del voto ...",
-      "SEARCH_DELEGATE": "Cerca delegato",
+      "SEARCH_BLOCK_PRODUCER": "Cerca",
       "TOTAL_REMAINING": "Rimanente: {percentage}%",
-      "NUMBER_OF_DELEGATES_VOTED": "Voti: {n}"
+      "NUMBER_OF_BLOCK_PRODUCERS_VOTED": "Voti: {n}"
     },
     "WALLET_IPFS": {
       "HEADER": "Hash IPFS",
@@ -1242,12 +1243,12 @@
       "HASH_ERROR": "L'hash IPFS non è un hash valido"
     },
     "WALLET_MULTI_SIGNATURE": {
-      "HEADER": "Firma-Multipla",
+      "HEADER": "Multifirma",
       "DESCRIPTION": "Transazioni in sospeso che richiedono la tua firma",
       "BUTTON_SET_PEER": "Imposta peer"
     },
     "WALLET_GRID": {
-      "LOADING_LEDGER": "Caricamento wallets Ledger..."
+      "LOADING_LEDGER": "Caricamento wallet Ledger..."
     },
     "WALLET_RENAME": {
       "TITLE": "Rinomina wallet",
@@ -1267,7 +1268,7 @@
       "ADDRESS_INFO": "Scegli un nome per questo contatto: "
     },
     "WALLET_REMOVAL_CONFIRMATION": {
-      "NOTE": "Non verrà cancellato alcun dato sulla blockchain. Potrai recuperare il wallet finché possiedi la frase segreta",
+      "NOTE": "Non verrà cancellato alcun dato sulla blockchain. Potrai recuperare il wallet finché possiedi la frase mnemonica",
       "QUESTION": "Sei sicuro di voler rimuovere questo wallet?",
       "CONTACT_QUESTION": "Sei sicuro di voler rimuovere questo wallet?"
     },
@@ -1300,7 +1301,7 @@
     "WALLET_TABLE": {
       "ACTIONS": "Azioni",
       "DELETE": "Elimina",
-      "NO_DELETE": "I wallets Ledger non possono essere eliminati",
+      "NO_DELETE": "I wallet Ledger non possono essere eliminati",
       "RENAME": "Rinomina"
     }
 
