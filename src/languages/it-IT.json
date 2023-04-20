@@ -417,6 +417,14 @@
         "NOT_VALID": "La chiave pubblica non è valida"
       }
     },
+    "INPUT_TOGGLE": {
+      "ADVANCED": "Avanzato",
+      "BASIC": "Base",
+      "MULTIPLE": "Multiplo",
+      "SINGLE": "Singolo",
+      "VERIFY": "Verifica",
+      "VERIFY_TEXT": "Verifica testo"
+    },
     "WALLET_SELECTION": {
       "PROFILE": "Profilo Mittente",
       "WALLET": "Wallet Mittente"
@@ -1142,6 +1150,7 @@
       }
     },
     "TRANSACTION_FORM": {
+      "TRANSFER_SUBTITLE": "Seleziona una Transazione a destinatario Singolo o Multiplo",
       "ERROR": {
         "NOT_ENOUGH_BALANCE": "Il saldo è troppo basso ({balance})"
       }
