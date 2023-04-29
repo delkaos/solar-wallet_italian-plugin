@@ -1240,7 +1240,8 @@
       "LOADING_VOTE": "Caricamento dei dettagli del voto ...",
       "SEARCH_BLOCK_PRODUCER": "Cerca",
       "TOTAL_REMAINING": "Rimanente: {percentage}%",
-      "NUMBER_OF_BLOCK_PRODUCERS_VOTED": "Voti: {n}"
+      "NUMBER_OF_BLOCK_PRODUCERS_VOTED": "Voti: {n}",
+      "OFFLINE": "Offline - rimuovere i voti per procedere"
     },
     "WALLET_IPFS": {
       "HEADER": "Hash IPFS",
