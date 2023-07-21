@@ -790,7 +790,7 @@
       "WALLET_ALL": {
         "LEDGER": {
           "CACHE": "Metti in cache wallet Ledger?",
-          "CACHE_INFO": "Metti in cache i wallet dal tuo Ledger per accelerare il caricamento quando si è connessi per la prima volta",
+          "CACHE_INFO": "Metti in cache i wallet dal tuo Ledger per velocizzare il caricamento alla prima connessione",
           "ADDITIONAL": "# di Wallet Ledger",
           "OPTIONS": "Opzioni Ledger"
         },
