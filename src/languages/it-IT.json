@@ -782,6 +782,7 @@
         "IPFS": "IPFS",
         "MULTI_SIGNATURE": "Multifirma",
         "MULTI_SIGNATURE_WALLET": "Wallet multifirma",
+        "LEDGER_VERIFY": "Verifica Indirizzo",
         "STATISTICS": "Statistiche",
         "SIGN_VERIFY": "Firma",
         "PURCHASE": "Acquista {ticker}"
@@ -1242,6 +1243,16 @@
       "TOTAL_REMAINING": "Rimanente: {percentage}%",
       "NUMBER_OF_BLOCK_PRODUCERS_VOTED": "Voti: {n}",
       "OFFLINE": "Offline - rimuovere i voti per procedere"
+    },
+    "WALLET_ADDRESS_VERIFY": {
+      "HEADER": "Verifica Indirizzo",
+      "DESCRIPTION": "Verifica il tuo indirizzo Ledger",
+      "REVIEW": "Controlla l'indirizzo visualizzato sul Ledger.",
+      "MATCH": "Deve corrispondere esattamente al seguente indirizzo:",
+      "BUTTON_VERIFY": "Verifica",
+      "CONFIRM_FOOTER_MESSAGE": "Conferma o rifiuta utilizzando il dispositivo Ledger",
+      "CONFIRM_FOOTER_SUCCESS": "Il tuo indirizzo Ledger è stato verificato!",
+      "CONFIRM_FOOTER_FAILED": "Verifica fallita!"
     },
     "WALLET_IPFS": {
       "HEADER": "Hash IPFS",
